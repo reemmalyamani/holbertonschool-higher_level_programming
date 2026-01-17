@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 str1 = "object-oriented programming"
 str2 = "with Python"
-str3 = str1[:6] + str2
+str3 = str1 + str1[15] + str2
 print(str3)
