@@ -1,0 +1,8 @@
+>>> text_indentation("Hello. World?")
+Hello.
+
+World?
+
+>>> text_indentation(123)
+Traceback (most recent call last):
+TypeError: text must be a string
