@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""Generate Pascal's Triangle."""
+
+
 def pascal_triangle(n):
-    """Returns a list of lists representing Pascal’s triangle of n"""
+    """Returns a list of lists representing Pascal’s triangle of n."""
     if n <= 0:
         return []
 
@@ -15,4 +18,3 @@ def pascal_triangle(n):
         triangle.append(row)
 
     return triangle
-
